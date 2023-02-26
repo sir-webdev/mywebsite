@@ -316,7 +316,7 @@ img#logo-v {
 	margin-top: 50px;
 }
   
-@media only screen and (max-width 450px) {
+@media only screen and (max-width: 450px) {
 	ul {
 		margin-top: 20px;
 		margin-left; 10px;
