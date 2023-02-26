@@ -129,7 +129,7 @@ nav.site ul {
 nav.site ul li {
 	display: inline-block;
   padding: 0 10px;
-  min-width: 250px;
+  min-width: 100px; /* was 250px before */
   width: auto;
 }
 
@@ -315,4 +315,13 @@ footer {
 img#logo-v {
 	margin-top: 50px;
 }
-
+  
+@media only screen and (max-width 450px) {
+	ul {
+		margin-top: 20px;
+		margin-left; 10px;
+		font-size: 0.70em;
+		display: flex;
+		flex-direction: row;
+	}
+}
